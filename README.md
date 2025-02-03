@@ -191,3 +191,6 @@ This project is open-sourced software licensed under the MIT license.
    - Check PHP error logs
    - Verify all dependencies are installed
    - Ensure PHP version compatibility
+
+## Project URL
+[roadmap.sh PHP Personal Blog Project](https://roadmap.sh/projects/personal-blog)
