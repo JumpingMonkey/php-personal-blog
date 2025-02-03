@@ -30,6 +30,12 @@ class AdminController extends Controller
         $this->render('admin/login', ['error' => 'Invalid credentials']);
     }
 
+    public function logout(): void
+    {
+        session_destroy();
+        $this->redirect('/admin/login');
+    }
+
     public function dashboard(): void
     {
         $this->requireAuth();

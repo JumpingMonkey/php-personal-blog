@@ -18,6 +18,7 @@ $router->get('/article/{id}', [ArticleController::class, 'show']);
 // Admin routes
 $router->get('/admin/login', [AdminController::class, 'loginForm']);
 $router->post('/admin/login', [AdminController::class, 'login']);
+$router->post('/admin/logout', [AdminController::class, 'logout']);
 $router->get('/admin/dashboard', [AdminController::class, 'dashboard']);
 $router->get('/admin/articles/create', [AdminController::class, 'createArticle']);
 $router->post('/admin/articles', [AdminController::class, 'storeArticle']);
