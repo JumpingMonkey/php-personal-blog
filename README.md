@@ -103,3 +103,7 @@ For production deployment:
 3. Commit your changes
 4. Push to the branch
 5. Create a new Pull Request
+
+
+## Project URL
+[roadmap.sh PHP Personal Blog Project](https://roadmap.sh/projects/personal-blog)
